@@ -1,0 +1,9 @@
+{
+  "name": "coming-soon-page",
+  "version": "1.0.0",
+  "description": "coming soon page for AIMyApply.com",
+  "main": "index.js",
+  "repository": "https://github.com/Jeremiah1582/webpage-Coming-soon.git",
+  "author": "jeremiah.1582@googlemail.com <jeremiah.1582@googlemail.com>",
+  "license": "MIT"
+}
