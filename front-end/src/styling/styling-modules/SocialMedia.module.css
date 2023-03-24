@@ -1,0 +1,21 @@
+.social_media {
+    text-align: center;
+    margin: 60px auto 50px;
+}
+
+.social_media a {
+    color: #ffffff;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 3px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    font-size: 22px;
+}
+
+.social_media a:hover {
+    background-color: #ffffff;
+    color: #00cbff;
+}

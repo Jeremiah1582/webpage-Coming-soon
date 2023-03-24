@@ -1,0 +1,17 @@
+.menu_btn  {
+    text-decoration: none;
+    color: #00cbff;
+    font-size: 20px;
+    position: fixed;
+    padding: 8px 15px;
+    left:0;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #fffffffd;
+    top: 60%;
+    transform: rotate(-90deg);
+    border-radius: 0 0 10px 10px;
+    transform-origin: left top 0;
+    cursor: pointer;
+   
+}

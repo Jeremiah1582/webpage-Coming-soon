@@ -1,0 +1,110 @@
+.input_container {
+    justify-content: center;
+    margin: 50px 150px 30px 150px;
+}
+
+.input_params {
+    margin-bottom:  25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.input_params input {
+    margin: 0 15px 10px 15px;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #333;
+    border: 0;
+    width: 100%;
+}
+
+.textarea_params {
+    justify-content: center;
+    margin: auto;
+    width: 630px;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 130px;
+    line-height: 18px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #333333;
+    border: 0;
+}
+textarea {
+    padding: 10px 15px;
+    width: 630px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.btn_params {
+    margin-top: 25px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.send_btn {
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    background-color: #00cbff;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 12px 20px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    cursor: pointer;
+    margin: 0 auto;
+    display: table;
+    border: 0;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+    .input_container {
+        justify-content: center;
+        margin: 30px 40px 30px 20px;
+    }
+
+    .input_params {
+        margin: 0;
+        padding: 0;
+        display: table;
+    }
+
+    .input_params input {
+        margin: 10px auto;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .textarea_params {
+        width: 410px;
+        height: 130px;
+        margin: 20px auto;
+        display: table;
+    }
+
+    textarea {
+        padding: 10px 15px;
+        width: 100%;
+        height: 130px;
+        border-radius: 5px;
+    }
+}

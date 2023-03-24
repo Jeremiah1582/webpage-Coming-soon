@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+
+.info_item {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.info_item h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info_item p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .info_item p {
+        font-size: 13px;
+        line-height: 26px;
+        margin: 20px 5px;
+        padding: 0;
+    }
+
+    .info_item h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container {
+        display: block;
+    }
+}
